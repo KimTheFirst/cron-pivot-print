@@ -67,7 +67,7 @@ if(empty($crons)){
         throw new Exception("No usable cron commands detected. This script only works with 6 field cron files.");
 }
 
-$weekdays=['SUN','MON','TUE','WED','THU','FRI','SAT','SUN'];
+$weekdays=['SUN','MON','TUE','WED','THU','FRI','SAT'];
 
 #Function to convert weekdays to their numeric values
 function weekify($val){
